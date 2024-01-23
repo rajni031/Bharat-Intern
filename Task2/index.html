@@ -65,13 +65,8 @@
             let data = await response.json();
             // console.log(data);
             if (response.status == 404) {
-
-               
-              
                 document.querySelector(".error").style.display = "block";
                 document.querySelector(".weather").style.display = "none"
-                alert("Invalid city name")
-               
             }
             else {
                 document.querySelector(".error").style.display = "none";
