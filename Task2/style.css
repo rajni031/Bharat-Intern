@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    color: black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(images/hero.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.icon {
+    width: 4%;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    color: #fff;
+    margin:  auto ;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc36;
+    color: #555;
+    color:black;
+    padding: 10px 25px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc36;
+    color: black;
+    border-radius: 50px;
+    border: 2px solid black;
+    cursor: pointer;
+    width: 60px;
+    height: 50px;
+}
+
+.search button:hover {
+    background-color: black;
+    color: white;
+}
+
+.search button i {
+    width: 16px;
+    font-size: 20px;
+}
+
+.weather-img {
+    width: 170px;
+    margin-top: 8px;
+}
+
+.waether h1 {
+    font-size: 160px;
+    font-weight: 500;
+}
+
+.waether h2 {
+    font-size: 80px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity,
+.wind {
+    font-size: 28px;
+    margin-top: -6px;
+    margin-bottom: 6px;
+}
+
+.weather {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    margin-top: 15px;
+    display: none;
+}
+
+.error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    color: black;
+    margin-top: 5px;
+    display: none;
+}
+
+.date {
+    margin-top: 10px;
+    font-size: 35px;
+    margin-left: 26px;
+}
